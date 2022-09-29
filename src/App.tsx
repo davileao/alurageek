@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import {Route, Routes} from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <main className="container">
+            <Header/>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/login" element={<Login/>}/>
+                <Route path="*" element={<NotFound/>}/>
+            </Routes>
+            <Footer/>
+        </main>
+    );
 }
 
 export default App;
+
+
+// <Header/>
+// <Routes>
+//     <Route path="/" element={<Header/>}>
+//         <Route index element={<Home/>}/>
+//         <Route path="/cardapio" element={<Cardapio/>}/>
+//         <Route path={"sobre"} element={<Sobre/>}/>
+//     </Route>
+//     <Route path="*" element={<NotFound/>}/>
+// </Routes>
+// <Footer/>

@@ -1,0 +1,92 @@
+[
+  {
+    "category": "Star Wars",
+    "categorylink": "#",
+    "products": [
+      {
+      "image": "../assets/images/produtos/canecasw.png",
+      "name": "caneca Star Wars",
+      "price": "R$ 29,90",
+        "link": "#"
+    },
+      {
+        "image": "../assets/images/produtos/legosw.png",
+        "name": "Lego Star Wars",
+        "price": "R$ 60",
+        "link": "#"
+      },
+      {
+        "image": "../assets/images/produtos/yoda.png",
+        "name": "Yoda",
+        "price": "R$ 79,90",
+        "link": "#"
+      },
+      {
+        "image": "../assets/images/produtos/stormtrooper.png",
+        "name": "Strom Trooper",
+        "price": "R$ 89,90",
+        "link": "#"
+      }
+    ]
+  },
+
+
+  {
+    "category": "Consoles",
+    "categorylink": "#",
+    "products": [{
+      "image": "../assets/images/produtos/controle.png",
+      "name": "Console XYZ",
+      "price": "R$ 60",
+      "link": "#"
+    },
+      {
+        "image": "../assets/images/produtos/controleconsole.png",
+        "name": "Controle e Console XYZ",
+        "price": "R$ 99,90",
+        "link": "#"
+      },{
+        "image": "../assets/images/produtos/consolenes.png",
+        "name": "Console XYZ",
+        "price": "R$ 29,90",
+        "link": "#"
+      },{
+        "image": "../assets/images/produtos/controleswitch.png",
+        "name": "Console XYZ",
+        "price": "R$ 29,90",
+        "link": "#"
+      }
+    ]
+  },
+
+  {
+    "category": "Diversos",
+    "categorylink": "#",
+    "products": [
+      {
+      "image": "../assets/images/produtos/camisaatari.png",
+      "name": "Camisa Atari",
+      "price": "R$ 29,90",
+      "link": "#"
+    },
+      {
+        "image": "../assets/images/produtos/camisasnes.png",
+        "name": "Camisa Snes",
+        "price": "R$ 39,90",
+        "link": "#"
+      },
+      {
+        "image": "../assets/images/produtos/sonic.png",
+        "name": "Constrole e Console",
+        "price": "R$ 59,90",
+        "link": "#"
+      },   {
+        "image": "../assets/images/produtos/controleeconsole2.png",
+        "name": "Controle",
+        "price": "R$ 60,90",
+        "link": "#"
+      }
+    ]
+  }
+
+  ]

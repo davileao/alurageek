@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.logo {
+  height: 4rem;
+  width: 8rem;
+}
+
+.button {
+  color: #2A7AE4;;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+  width: 133px;
+  height: 40px;
+  border: 1px solid #2A7AE4;
+}
+
+button:hover {
+  color: var(--white);
+  background: var(--blue);
+  cursor: pointer
+}
+
+.active {
+  display: none;
+}
+
+

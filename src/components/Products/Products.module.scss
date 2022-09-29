@@ -1,0 +1,85 @@
+@import '../../styles/_variables.css';
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 0 1rem;
+
+  h2 {
+    font-weight: 700;
+    font-size: 1.35rem;
+  }
+
+  a {
+    font-size: 1rem;
+    color: var(--blue);
+  }
+
+}
+
+
+.products__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+
+
+  // quando for deixar responsivo:
+  //:last-child {
+  //  margin-right: auto;
+  //  margin-left: 2.6rem;
+  //}
+}
+
+
+
+
+.products__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+
+  img {
+    width: 180px;
+    height: 220px;
+  }
+
+
+}
+
+.products__item__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5rem 0 1rem 0;
+  gap: 0.5rem;
+
+  h3 {
+    font-size: 0.8rem;
+
+  }
+
+  span {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  a {
+    font-size: 0.8rem;
+    color: var(--blue);
+  }
+
+
+}
