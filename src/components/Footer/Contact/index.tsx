@@ -2,6 +2,7 @@ import styles from './Contact.module.scss';
 import logo from "../../../assets/images/logo.svg";
 import {Link} from "react-router-dom";
 import Button from "../../Button";
+import Input from "../../Input";
 
 export const Contact = () => {
     return (
@@ -18,7 +19,7 @@ export const Contact = () => {
 
             <div className={styles.form}>
                 <p className={styles.form__title}>Fale Conosco</p>
-                <input type="text" placeholder="Nome" />
+                <Input type="text" placeholder="Nome" />
 
                 <textarea placeholder="Escreva sua mensagem" />
                 <Button variant={'secondary'}>Enviar Mensagem</Button>

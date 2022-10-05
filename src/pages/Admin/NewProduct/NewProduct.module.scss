@@ -1,0 +1,27 @@
+@import "../../../styles/_variables.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bggrey);
+  height: 70vh;
+
+
+}
+
+.tittle {
+  font-weight: 700;
+  font-size: 1.375rem;
+  margin: 1rem 0 0.5rem 2rem;
+  align-self: flex-start ;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

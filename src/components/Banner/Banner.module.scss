@@ -1,4 +1,5 @@
 @import '../../styles/_variables.css';
+@import '../../styles/_breakpoints.scss';
 
 
 .banner {
@@ -37,7 +38,18 @@
 }
 
 
+@media (min-width: $breakpoint-tablet) {
+  .banner {
+    height: 22rem;
+  }
 
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .container {
+    color: blue;
+  }
+}
 
 
 

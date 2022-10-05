@@ -1,8 +1,10 @@
-interface IItem {
+interface IItem{
     image: string;
     name: string;
     price: string;
+    id: number;
     link: string;
+    description: string;
 
 }
 

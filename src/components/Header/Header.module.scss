@@ -1,6 +1,11 @@
+@import '../../styles/_variables.css';
+@import '../../styles/_breakpoints.scss';
+
+
+
 .header {
   display: flex;
-  justify-content: space-between;
+    justify-content: space-around;
   align-items: center;
   height: 6rem;
   margin: 0 0.5rem 0 0.5rem;
@@ -34,6 +39,37 @@ button:hover {
 
 .active {
   display: none;
+
 }
 
 
+#parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-left:3rem;
+  gap: 2rem
+}
+
+
+@media (min-width: $breakpoint-tablet) {
+  .header {
+    margin: 0 1rem 0 5rem;
+  }
+  #parent{
+    display:flex;
+    flex-flow: row;
+  }
+  #a{order:2;}
+  #b{order:1;
+
+  }
+}
+
+
+@media (min-width: $breakpoint-desktop) {
+
+}

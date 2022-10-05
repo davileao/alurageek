@@ -7,19 +7,28 @@ import {Link, NavLink} from "react-router-dom";
 
 export default function Header() {
     return (
-        <header className={styles.header}>
-            <NavLink
-                to={'/'}
-            >
-                <Logo className={styles.logo}/></NavLink>
-            <NavLink className={({isActive}) =>
-                isActive ? `${styles.active}` : undefined
-            }  to={"/login"}>
-                <Button size={'large'}
-                >Login </Button></NavLink>
+        <header id={styles.headerID} className={styles.header}>
 
-            <Link to={"/all"}><SearchIcon/></Link>
+                <div id={styles.logoID}><NavLink
+                    to={'/'}
+                >
+                    <Logo className={styles.logo}/>
 
+                </NavLink></div>
+
+            <div id={styles.parent}>
+
+                <div id={styles.a}><NavLink className={({isActive}) =>
+                    isActive ? `${styles.active}` : undefined
+                } to={"/login"}>
+                    <Button size={'large'}
+                    >Login </Button>
+                </NavLink></div>
+
+                <div id={styles.b}><Link to={"/allproducts"}><SearchIcon/></Link></div>
+
+
+            </div>
         </header>
     );
 }

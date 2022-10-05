@@ -1,0 +1,23 @@
+@import '../../styles/_variables.css';
+@import '../../styles/_breakpoints.scss';
+
+.container {
+display: flex;
+  flex-direction: column;
+justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 8rem;
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .container {
+    color: red;
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .container {
+    color: blue;
+  }
+}

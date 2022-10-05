@@ -1,5 +1,16 @@
 @import '../../styles/_variables.css';
 
+.title {
+  font-weight: 700;
+    font-size: 1.5rem;
+  margin-left: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.button_wrapper {
+  margin-left: 1.1rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -39,48 +50,4 @@
   //  margin-right: auto;
   //  margin-left: 2.6rem;
   //}
-}
-
-
-
-
-.products__item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  box-sizing: border-box;
-
-  img {
-    width: 11.25rem;
-    height: 13.75rem;
-    object-fit: cover;
-  }
-
-
-}
-
-.products__item__info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0.5rem 0 1rem 0;
-  gap: 0.5rem;
-
-  h3 {
-    font-size: 0.8rem;
-
-  }
-
-  span {
-    font-size: 1rem;
-    font-weight: 700;
-  }
-
-  a {
-    font-size: 0.8rem;
-    color: var(--blue);
-  }
-
-
 }

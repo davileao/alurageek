@@ -7,7 +7,7 @@ export default function Footer() {
         <>
             <Contact/>
             <footer className={styles.footer}>
-                <p>Desenvolvido por Davi Leao - 2022</p>
+                <p>Desenvolvido por <a className={styles.link} href={'https://github.com/davileao'} target={"_blank"} rel={"noopener"}>Davi Leao</a> - 2022</p>
             </footer>
         </>
     );

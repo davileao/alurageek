@@ -10,6 +10,7 @@ interface IButtonProps {
     size?: 'small' | 'medium' | 'large';
     disabled?: boolean;
     navigate?: string;
+    type?: 'button' | 'submit' | 'reset' | undefined;
 }
 
 
@@ -31,6 +32,7 @@ export default function Button(props: IButtonProps) {
             className={`${styles.button} ${styles[variant || 'primary']} ${styles[size || 'medium']}` + (disabled ? ` ${styles.disabled}` : '')}
             onClick={handleClick}
             disabled={disabled}
+            type={props.type}
         >
             {children}
         </button>

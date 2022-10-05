@@ -1,3 +1,6 @@
+@import '../../styles/_variables.css';
+
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -5,4 +8,9 @@
   padding: 2.5rem;
   gap: 1rem;
 
+}
+
+.link {
+  text-decoration: underline;
+    color: #000;
 }

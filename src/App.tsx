@@ -6,17 +6,17 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
+import AllProducts from "./pages/AllProducts";
+import NewProduct from "./pages/Admin/NewProduct";
+import Admin from "./pages/Admin";
+import {ProductDetailsPage} from "./pages/ProductDetails";
+import Navigation from "./pages/Navigation";
+import AppRouter from "./routes";
 
 function App() {
     return (
         <main className="container">
-            <Header/>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/login" element={<Login/>}/>
-                <Route path="*" element={<NotFound/>}/>
-            </Routes>
-            <Footer/>
+           <AppRouter/>
         </main>
     );
 }
