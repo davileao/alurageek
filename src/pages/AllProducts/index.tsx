@@ -1,6 +1,6 @@
 import styles from './AllProducts.module.scss';
 import IItem from "../../interfaces/IItem";
-import itemDB from '../../data/products.json';
+import itemDB from '../../data/productsold.json';
 import Item from "../../components/Products/Item";
 import Button from "../../components/Button";
 import {v4 as uuidv4} from "uuid";

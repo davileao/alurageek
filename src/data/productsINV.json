@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Caneca Star Wars",
+    "image": "../assets/images/produtos/canecasw.png",
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "price": "R$ 29,90",
+    "link": "#",
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "Star Wars"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/legosw.png",
+    "name": "Lego Star Wars",
+    "price": "R$ 599,99",
+    "link": "#",
+    "id": 2,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 1,
+      "label": "Star Wars"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/yoda.png",
+    "name": "Boneco Yoda",
+    "price": "R$ 79,90",
+    "link": "#",
+    "id": 3,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl."
+  },
+  {
+    "image": "../assets/images/produtos/stormtrooper.png",
+    "name": "Boneco Storm Trooper",
+    "price": "R$ 89,90",
+    "link": "#",
+    "id": 4,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 1,
+      "label": "Star Wars"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/afbabyyoda.png",
+    "name": "Action Figure Baby Yoda",
+    "price": "R$ 999,90",
+    "link": "#",
+    "id": 5,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 1,
+      "label": "Star Wars"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/afkyloren.png",
+    "name": "Action Figure Kylo Ren",
+    "price": "R$ 9,90",
+    "link": "#",
+    "id": 6,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 1,
+      "label": "Star Wars"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/controle.png",
+    "name": "Controle Xbox S",
+    "price": "R$ 399,90",
+    "link": "#",
+    "id": 7,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Consoles"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/controleconsole.png",
+    "name": "Playstation 5",
+    "price": "R$ 4999,90",
+    "link": "#",
+    "id": 8,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Consoles"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/consolenes.png",
+    "name": "Nintendinho",
+    "price": "R$ 299,90",
+    "link": "#",
+    "id": 9,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Consoles"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/controleswitch.png",
+    "name": "Controle Nintendo Switch",
+    "price": "R$ 29,90",
+    "link": "#",
+    "id": 10,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Consoles"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/gameboy.png",
+    "name": "Game Boy ",
+    "price": "R$ 1999,90",
+    "link": "#",
+    "id": 11,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Consoles"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/xboxx.png",
+    "name": "Console Xbox Series X",
+    "price": "R$ 2999,90",
+    "link": "#",
+    "id": 12,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Consoles"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/camisaatari.png",
+    "name": "Camisa Atari",
+    "price": "R$ 29,90",
+    "link": "#",
+    "id": 13,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Diversos"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/camisasnes.png",
+    "name": "Camisa Snes",
+    "price": "R$ 39,90",
+    "link": "#",
+    "id": 14,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Diversos"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/sonic.png",
+    "name": "Action Figure Sonic",
+    "price": "R$ 59,90",
+    "link": "#",
+    "id": 15,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Diversos"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/controleeconsole2.png",
+    "name": "Radio-Relógio Retrô",
+    "price": "R$ 99,90",
+    "link": "#",
+    "id": 16,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Diversos"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/pikachu.png",
+    "name": "Pelúcia Pikachu",
+    "price": "R$ 159,90",
+    "link": "#",
+    "id": 17,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Diversos"
+    }
+  },
+  {
+    "image": "../assets/images/produtos/mario.png",
+    "name": "Action Figure Mario",
+    "price": "R$ 349,50",
+    "link": "#",
+    "id": 18,
+    "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.",
+    "category": {
+      "id": 2,
+      "label": "Diversos"
+    }
+  }
+]

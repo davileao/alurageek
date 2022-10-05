@@ -1,8 +1,11 @@
 import styles from './Products.module.scss';
-import itemDB from '../../data/products.json';
+import itemDB from '../../data/productsold.json';
 import Item from "./Item";
 import { v4 as uuidv4 } from 'uuid';
 import React from "react";
+import {Link, useNavigate, useParams} from "react-router-dom";
+import IItem from "../../interfaces/IItem";
+import IProducts from "../../interfaces/IProducts";
 
 export default function Products() {
 
@@ -18,13 +21,16 @@ export default function Products() {
 
     };
 
+    const navigate = useNavigate();
+
+
     return (
         <div className={styles.container}>
             {itemDB.map((item) => (
                 <React.Fragment key={uuidv4()} >
                     <div className={styles.products}>
                         <h2>{item.category}</h2>
-                        <a href={item.categoryID}>Ver mais</a>
+                        <Link to={`/categorypage/${item.categoryID}`} >Ver mais</Link>
                     </div>
                     <div   className={styles.products__list}>
                             {item.products.slice(0,showItens()).map((item) => (

@@ -1,14 +1,11 @@
 import './Item.module.scss';
 import styles from "../Products.module.scss";
 import IItem from "../../../interfaces/IItem";
-import {v4 as uuidv4} from "uuid";
-import {Link, useNavigate} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function Item(props: IItem) {
 
     const { name, price, image, id } = props;
-
-    const navigate = useNavigate();
 
     return (
         <div className={styles.products__item}>

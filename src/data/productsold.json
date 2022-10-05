@@ -1,7 +1,7 @@
 [
   {
     "category": "Star Wars",
-    "categoryID": "1",
+    "categoryID": 1,
     "products": [
       {
         "image": "../assets/images/produtos/canecasw.png",
@@ -11,6 +11,7 @@
         "id": 1,
         "description": "Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl."
       },
+
       {
         "image": "../assets/images/produtos/legosw.png",
         "name": "Lego Star Wars",
@@ -55,7 +56,7 @@
   },
   {
     "category": "Consoles",
-    "categoryID":" 2",
+    "categoryID":2,
     "products": [
       {
         "image": "../assets/images/produtos/controle.png",
@@ -109,7 +110,7 @@
   },
   {
     "category": "Diversos",
-    "categoryID": "3",
+    "categoryID": 3,
     "products": [
       {
         "image": "../assets/images/produtos/camisaatari.png",
